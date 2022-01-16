@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" crossorigin=""/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>  
+    <link href="legenda.css" rel="stylesheet">
+    <link href="imgs/" rel="stylesheet">
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" crossorigin=""></script>
+    <script src='bicicletarios_geojson.geojson'></script>
+    <script src="modos_suaves_de_transporte_geojson.geojson"></script>
+    <script src="trilho_1.json"></script>
+    <script src="trilho_2.json"></script>
+    <script src= "escolas_ebs_es.json"></script>
+    <script src="porto.json"></script>
+    <script src="areas_5min.json"></script>
+    <script src="areas_10min.json"></script>
+    <script src="areas_15min.json"></script>
+    <script src="pop_14_19.json"></script>
+    <script src='leaflet-heat.js'></script>
+    <script src='leaflet.zoomhome.min.js'></script>
+
+
+</head>
+<body>
+
+    <div>
+        <p class="cabecalho">Curriculum Vitae</p>
+    </div>
+    <section class="lateral">
+        <h1>Dados Pessoais</h1>
+        <p> <img src="imagens/Imagem_perfil.jpeg" width ="250" height ="250" alt="imagem" class="imagem"> </p>
+        <p> Mafalda Carolina Baeta da Costa</p>
+        <p>04/08/1999</p>
+        <p>Porto, Portugal</p>
+        <p>Aluna MSIGOT</p>
+        <a class="pdf_link"href="projetos/CurriculumVitae.pdf">Descarregar Currículo</a>
+    </section>
+
+    <section class="menuinicial">
+        <ul class="menu">
+            <li><a href="#b1">Competências</a></li>
+            <li><a href="#b2">Experiência Profissional</a></li>
+            <li><a href="#b3">Percurso Académico</a></li>
+            <li><a href="#b4">Atividades Extracurriculares</a></li>
+            <li><a href="#b5">Formação</a></li>
+        </ul>
+    </section>
+
+<section class="main">
+    <section class="bloco1">
+        <h1 id="b1">Competências</h1>
+            
+            <div class="main1"></div>
+            <div class="row">
+                <div class="column">
+                  <div class="content">
+                    <img src="imagens/metodica.png" width ="100px" height ="100px"alt="imag">
+                    <h6>Metódica</h6>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="content">
+                    <img src="imagens/team.png" width ="100px" height ="100px"alt="imag">
+                    <h6>Espírito de Equipa</h6>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="content">
+                    <img src="imagens/pro.png" width ="100px" height ="100px"alt="imag">
+                    <h6>Proativa</h6>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="content">
+                    <img src="imagens/comunica.png" width ="100px" height ="100px"alt="imag">
+                    <h6>Boa comunicação</h6>
+                  </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                      <img src="imagens/empenho.png" width ="100px" height ="100px"alt="imag">
+                      <h6>Empenhada</h6>
+                    </div>
+                  </div>
+                <div class="column">
+                    <div class="content">
+                      <img src="imagens/adapt.png" width ="100px" height ="100px"alt="imag">
+                      <h6>Adaptabilidade</h6>
+                    </div>
+                  </div>
+                  
+        
+            <img src="imagens/office.png" width ="200px" height ="80"alt="imagem">
+            <img src="imagens/arcgispro.png" width ="80" height ="80"alt="imagem">
+            <img src="imagens/arcgis.png" width ="80" height ="80"alt="imagem">
+            <img src="imagens/rstudio.png" width ="200" height ="80"alt="imagem">
+            <img src="imagens/programa.png" width ="150" height ="80"alt="imagem">
+            <h6>Conhecimentos de ferramentas do Office (Word, PowerPoint e Excel), ArcGis, e Programação</h6>
+
+
+    </section>
+
+    <section class="bloco2">
+        <h1 id="b2">Experiência Profissional</h1>
+            <h5>EMPREGADA DE LOJA</h5>
+            <div>De junho a setembro, todos os verões desde 2016 até 2021, em
+                Portimão, onde desempenhava funções de caixeira, atendimento ao
+                público (incluíndo estrangeiros) e reposição de stock.</div>
+                <img src="imagens/caixeira.jpg" width ="100" height ="100"alt="imagem" class="img">
+            <h5>TREINADORA DE MINIVOLEI</h5>
+            <div>De setembro de 2016 a maio de 2017, na Associação Académica de São Mamede de Infesta.</div>
+            <img src="imagens/aasm.jpg" width ="400" height ="400"alt="imagem" class="img">
+    </section>
+
+    <section class="bloco3">
+        <h1 id="b3">Percurso Académico</h1>
+        <iframe src="https://storymaps.arcgis.com/stories/ab197c54a38640f793379ddb400af26c" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
+    </section>
+
+    <section class="bloco4">
+        <h1 id="b4">Atividades Extracurriculares</h1>
+        <h5>Federada em Voleibol, Atleta na Associação Académica de São Mamede de Infesta desde 2016 até 2021.</p>
+        <img src="imagens/atleta.jpg" width ="300" height ="400"alt="imagem" class="img">
+        <h5>Atleta no Desporto Escolar da Faculade de Letras da Universidade do Porto.</p>
+        <img src="imagens/fap.JPG" width ="500" height ="200"alt="imagem" class="img">
+        <h5>Cliente no ginásio Bom sucesso Health Club.</p>
+        <img src="imagens/gym.JPG" width ="300" height ="500"alt="imagem" class="img">
+    </section>
+
+    <section class="bloco5">
+        <h1 id="b5">Formação</h1>
+        <h5>Projetos da Licenciatura</h5>
+        <iframe src="projetos/Relatorio_geo.pdf" width="70%" height="500px" frameborder="0"></iframe>
+        <iframe src="projetos/Relatorio_pee.pdf" width="70%" height="500px" frameborder="0"></iframe>
+        <iframe src="projetos/Relatorio_ggem.pdf" width="70%" height="500px" frameborder="0"></iframe>
+        <iframe src="projetos/Relatorio_dpt.pdf" width="70%" height="500px" frameborder="0"></iframe>
+
+        <h5 class="p">Projetos de Mestrado</h5>
+        <iframe src="projetos/Relatorio_draot.pdf" width="70%" height="500px" frameborder="0"></iframe>
+        <iframe src="projetos/Relatório_BDR.pdf" width="70%" height="500px" frameborder="0"></iframe>
+        <iframe src="projetos/Relatorio_tpt.pdf" width="70%" height="500px" frameborder="0"></iframe>
+
+        <h5>Projeto no âmbito da Unidade Curricular de Aplicações e Websig em Ordenamento do Território</h5>
+        <div id='mapa'>i</div>
+        <script src ="script.js"></script>  
+        <br>
+        <div class="websig">No âmbito da unidade curricular de Aplicações e Websig em Ordenamento do Território,
+            observa-se no presente mapa, uma análise espacial da acessibilidade ativa às escolas de Ensino Básico Secundário (EBS) e Ensino
+            Secundário (ES) no concelho do Porto. <br> <br> No campo das camadas do mapa, encontram-se dois basemaps, o primeiro é constituído
+            pelo terreno (imagens satélite), e o segundo, contém a rede viária e ciclovias. Posto isto, é possível ver a 
+            distribuição espacial dos pontos de partilha das trotinetes elétricas da Bird/Circ, dos bicicletários, local cujo
+            se podem estacionar as bicicletas, e por fim as escolas EBS e ES. Com o auxílio do ''heatmap" é possível 
+            identificar as áreas de calor onde estes se concentram. <br> <br>De seguida, apresentra-se a população alvo, ou seja, 
+            a população na faixa etária entre os 14 e 19 anos, e também as áreas de influência de cada escola, numa distância 
+            de 15 minutos a pé. Por fim, foi realizado trabalho de campo em prol de outra unidade curricular, onde se registou 102 pontos de partilha
+            permitindo atribuir uma fotografia do local a cada um dos pontos, estas podem ser visualizadas nos popups.
+
+         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h5>Posters e Certificados</h5>
+        
+        <div class="galeria">
+            <a target="_blank" href="imagens/poster1.JPG">
+              <img src="imagens/poster1.JPG" alt="Imagem" width="100%" height="100%">
+            </a>
+        </div>
+          
+        <div class="galeria">
+            <a target="_blank" href="imagens/poster3.JPG">
+              <img src="imagens/poster3.JPG" alt="Imagem" width="100%" height="100%">
+            </a>
+        </div>
+
+        <div class="galeria">
+            <a target="_blank" href="imagens/poster2.JPG">
+              <img src="imagens/poster2.JPG" alt="Imagem" width="100%" height="100%">
+            </a>
+        </div>
+
+        <div class="galeria">
+            <a target="_blank" href="imagens/c1.jpg">
+              <img src="imagens/c1.jpg" alt="Imagem" width="100%" height="100%">
+            </a>
+        </div>
+    
+
+        <div class="galeria">
+            <a target="_blank" href="imagens/c2.jpg">
+              <img src="imagens/c2.jpg" alt="Imagem" width="100%" height="100%">
+            </a>
+        </div>
+
+        <div class="galeria">
+            <a target="_blank" href="imagens/c3.JPG">
+              <img src="imagens/c3.JPG" alt="Imagem" width="100%" height="100%">
+            </a>
+        </div>
+    </section>
+
+</section>
+
+<footer>
+    <h1>Contactos</h1>
+    <p id="direitos">Aplicações em WebSig e OT | 2021</p>
+    <p id="direitos">© 2021 Mafalda Costa. All rights reserved.</p>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="https://www.facebook.com/mafalda.costa.7587" class="fa fa-facebook"></a>
+<a href="https://twitter.com/mafaldacbc?t=iazSjjOvNSC3sC1poNZ89g&s=09" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/magafinha/" class="fa fa-instagram"></a>
+<a href="mafa.mafinha@hotmail.com" class="fa fa-envelope"></a>
+<a href="https://www.linkedin.com/in/mafalda-costa-2b1475226/" class="fa fa-linkedin"></a>
+
+<br></br>
+</footer>
+
+    
+</body>
+</html>
